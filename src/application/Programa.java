@@ -50,7 +50,7 @@ public class Programa {
 		
 		System.out.println();
 		
-		System.out.println("TOTAL TAXES: $ " + sum);
+		System.out.println("TOTAL TAXES: $ " + String.format(".2f", sum));
 		
 		sc.close();
 	}
